@@ -30,30 +30,31 @@
 }
 
 .header__title {
-  width: 730px;
-  left: 64px;
+  max-width: 730px;
   line-height: 96px;
-  position: relative;
   align-self: center;
   font-size: 102px;
   font-weight: bolder;
-  color: #000000;
   z-index: 9;
+  margin: 0 0 0 64px;
 }
 
 .header__subtitle {
   position: absolute;
-  width: 388px;
+  max-width: 388px;
   left: 64px;
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  color: #000000;
   z-index: 8;
+  margin: 0;
 }
 
 .header__link {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
   color: #2f80ed;
   z-index: 7;
 }
@@ -93,7 +94,7 @@
 }
 
 .two-columns__brief {
-  width: 175px;
+  max-width: 175px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -113,14 +114,12 @@
   font-weight: normal;
 }
 
-p.two-columns__paragraph:nth-of-type(3n) {
+.two-columns__paragraph:nth-of-type(3n) {
   margin-bottom: 0;
 }
 
 .two-columns__span-accent {
   margin: 0;
-  line-height: 34px;
-  font-size: 24px;
   font-weight: bolder;
 }
 
@@ -169,7 +168,7 @@ p.two-columns__paragraph:nth-of-type(3n) {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bolder;
-  margin-top: 0;
+  margin: 0;
 }
 
 .table__text {
@@ -181,7 +180,7 @@ p.two-columns__paragraph:nth-of-type(3n) {
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -192,7 +191,7 @@ p.two-columns__paragraph:nth-of-type(3n) {
   background-color: #f2f2f2;
 }
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -207,8 +206,7 @@ p.two-columns__paragraph:nth-of-type(3n) {
   font-size: 36px;
   margin-top: 70px;
   font-weight: normal;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto 0 auto;
   text-align: center;
   z-index: 9;
 }
@@ -222,6 +220,7 @@ p.two-columns__paragraph:nth-of-type(3n) {
   font-size: 36px;
   font-weight: normal;
   z-index: 8;
+  margin: 0;
 }
 
 
@@ -271,7 +270,6 @@ p.two-columns__paragraph:nth-of-type(3n) {
   z-index: 2;
   margin-top: 0;
   margin-bottom: 90px;
-  border: 1px white;
   margin-right: auto;
   margin-left: auto;
 }
@@ -280,7 +278,6 @@ p.two-columns__paragraph:nth-of-type(3n) {
   width: 200px;
   color: white;
   margin-top: 80px;
-  border: 1px white;
 }
 
 .table__heading_theme_dark {
@@ -299,9 +296,9 @@ p.two-columns__paragraph:nth-of-type(3n) {
   min-height: 350px;
   background-color: #1f1f1f;
   background-size: cover;
-  padding-top: 90px;
   padding-bottom: 40px;
   margin-bottom: 0;
+  box-sizing: content-box;
 }
 
 .footer__columns {
