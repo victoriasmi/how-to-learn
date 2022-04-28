@@ -23,6 +23,9 @@
 }
 
 .logo_place_header {
+  height: 32px;
+  width: 228px;
+  background-image: url("../images/logo_place_header.svg");
   position: absolute;
   top: 30px;
   left: 64px;
@@ -57,6 +60,7 @@
   font-weight: normal;
   color: #2f80ed;
   z-index: 7;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -204,9 +208,8 @@
 .feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
-  margin-top: 70px;
   font-weight: normal;
-  margin: 0 auto 0 auto;
+  margin: 70px auto 0 auto;
   text-align: center;
   z-index: 9;
 }
@@ -221,6 +224,7 @@
   font-weight: normal;
   z-index: 8;
   margin: 0;
+  text-decoration: none;
 }
 
 
@@ -331,7 +335,7 @@
 .logo_place_footer{
   width: 228px;
   height: 32px;
-  color: white;
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__author {
@@ -349,8 +353,8 @@
   font-size: 18px;
   font-weight: bolder;
   color: white;
-  padding-bottom: 0;
-  margin-bottom: 20px;
+  padding: 0;
+  margin: 0 0 20px 0;
 }
 
 .footer__column-links {
@@ -382,4 +386,3 @@
   padding-left: 0;
   margin-top: 0;
 }
-
