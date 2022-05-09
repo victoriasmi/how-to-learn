@@ -1,0 +1,18 @@
+.footer__column {
+
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-basis: 711px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__column_content_info {
+  padding-bottom: 18px;
+}
+
+.footer__column_content_social {
+  padding-bottom: 18px;
+}
