@@ -7,7 +7,7 @@
 
 **About Project**
 
-Website about new and effective approaches to education.
+Website about new, effective approaches to education.
 Will be very useful for everyone who strives to make their educational project more efficient. 
 
 **Technologies**
