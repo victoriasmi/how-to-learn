@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: center;
-  min-height: 350px;
+  min-height: 50px;
   background-color: #1f1f1f;
   background-size: cover;
   padding-bottom: 40px;
